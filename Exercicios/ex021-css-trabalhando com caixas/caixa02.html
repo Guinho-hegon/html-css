@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: chartreuse;
+        }
+        
+        header {
+            background-color: chocolate;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: lightgrey;
+            padding: 3px;
+            box-shadow: 1px 1px black;
+                       
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        main {
+            background-color: cornflowerblue;
+            padding: 10px;
+            margin: 10px;     
+            border-radius: 20px;       
+        }
+
+        article{
+            background-color: gainsboro;
+            padding: 2px;
+            margin: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(134, 126, 134);
+            padding: 2px;
+            margin: 2px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos" >
+            <article>
+                <h2> Assuntos</h2>
+            </article>
+        </section>
+        <section id="noticias" >
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum molestiae voluptatum aliquam itaque ipsum deleniti voluptatem illum fuga ad molestias similique, ut recusandae nihil ducimus qui error odit inventore sit.</p>
+                <aside>
+                    <p>Artigo escrito por Mim</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido mim por mim mesmo</p>
+    </footer>
+</body>
+</html>
